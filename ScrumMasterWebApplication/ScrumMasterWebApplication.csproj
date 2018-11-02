@@ -13,4 +13,8 @@
     <Folder Include="Views\Home\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ScrumMasterResource\ScrumMasterResource.csproj" />
+  </ItemGroup>
+
 </Project>
