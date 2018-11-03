@@ -3,17 +3,15 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ScrumMasterWebApplication.Context;
+using ScrumMasterDataContext;
 
-namespace ScrumMasterWebApplication.Migrations
+namespace ScrumMasterDataContext.Migrations
 {
     [DbContext(typeof(ScrumMasterDbContext))]
-    [Migration("20181102154822_Initial")]
-    partial class Initial
+    partial class ScrumMasterDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

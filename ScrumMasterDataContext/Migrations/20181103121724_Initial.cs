@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ScrumMasterWebApplication.Migrations
+namespace ScrumMasterDataContext.Migrations
 {
     public partial class Initial : Migration
     {
